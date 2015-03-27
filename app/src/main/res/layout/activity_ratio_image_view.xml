@@ -10,8 +10,8 @@
     <com.wrl.viewtest.views.RatioImageView
         android:layout_marginTop="1dp"
         android:layout_width="match_parent"
-        android:src="@drawable/bg_score_bus"
         android:scaleType="centerInside"
+        android:background="#00f"
         app:wWeight="100"
         app:hWeight="70"
         android:layout_height="wrap_content" />
