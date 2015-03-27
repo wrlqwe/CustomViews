@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="arcMenu_OK"
+        android:onClick="onArcMenuClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="normalSlide_OK"
+        android:onClick="onNormalSlideClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="qqSlide_OK"
+        android:onClick="onQQSlideClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="animateProgressView_OK"
+        android:onClick="onAnimateProgressClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="ratioImageView_OK"
+        android:onClick="onRatioImageViewClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onScrollClick"
+        android:layout_width="match_parent"
+        android:text="scroll"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="openGLES"
+        android:onClick="onOGLESClick"
+        android:layout_height="wrap_content" />
+</LinearLayout>

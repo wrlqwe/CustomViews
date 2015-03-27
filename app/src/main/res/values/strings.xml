@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ViewTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_arc_menu">ArcMenuActivity</string>
+    <string name="title_activity_normal_slide">NormalSlideActivity</string>
+    <string name="title_activity_qqslide">QQSlideActivity</string>
+    <string name="title_activity_animate_progress">AnimateProgressActivity</string>
+    <string name="title_activity_open_gles">OpenGLESActivity</string>
+    <string name="title_activity_ratio_image_view">RatioImageViewActivity</string>
+</resources>

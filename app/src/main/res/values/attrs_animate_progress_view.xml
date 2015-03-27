@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimateProgressView" >
+        <attr name="apv_internal_arc_color" format="color"/>
+        <attr name="apv_internal_arc_width" format="dimension"/>
+        <attr name="apv_outside_arc_color" format="color"/>
+        <attr name="apv_outside_arc_width" format="dimension"/>
+        <attr name="apv_anim_duration" format="integer"/>
+        <attr name="apv_background" format="color|reference"/>
+        <attr name="apv_sweep_background" format="color|reference"/>
+        </declare-styleable>
+</resources>

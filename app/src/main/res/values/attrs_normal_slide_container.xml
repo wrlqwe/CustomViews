@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="NormalSlideContainer">
+        <attr name="menuRightPadding"/>
+    </declare-styleable>
+</resources>

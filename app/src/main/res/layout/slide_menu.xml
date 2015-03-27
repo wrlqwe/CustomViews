@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/img_1"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="第1个Item"
+                android:background="@null"
+                android:padding="4dp"
+                android:drawablePadding="8dp"
+                android:textColor="#fff"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/img_2"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="第2个Item"
+                android:background="@null"
+                android:textColor="#fff"
+                android:padding="4dp"
+                android:drawablePadding="8dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/img_3"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="第3个Item"
+                android:background="@null"
+                android:padding="4dp"
+                android:textColor="#fff"
+                android:drawablePadding="8dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item4"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/img_4"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="第4个Item"
+                android:background="@null"
+                android:padding="4dp"
+                android:drawablePadding="8dp"
+                android:textColor="#fff"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item5"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/img_5"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="第5个Item"
+                android:background="@null"
+                android:textColor="#fff"
+                android:padding="4dp"
+                android:drawablePadding="8dp"
+                android:gravity="left|center_vertical"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

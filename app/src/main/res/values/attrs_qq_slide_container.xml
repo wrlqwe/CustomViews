@@ -1,0 +1,6 @@
+<resources>
+    <attr name="menuRightPadding" format="dimension"/>
+    <declare-styleable name="QQSlideContainer">
+        <attr name="menuRightPadding"/>
+    </declare-styleable>
+</resources>
