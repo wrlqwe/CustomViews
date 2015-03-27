@@ -11,17 +11,17 @@
         android:layout_marginTop="1dp"
         android:layout_width="match_parent"
         android:scaleType="centerInside"
-        android:background="#00f"
+        android:background="#f0f"
+        android:layout_height="wrap_content"
         app:wWeight="100"
-        app:hWeight="70"
-        android:layout_height="wrap_content" />
+        app:hWeight="20" />
 
     <com.wrl.viewtest.views.RatioImageView
         android:layout_marginTop="1dp"
         android:layout_width="match_parent"
-        app:ratio="1.3"
-        android:background="#00f"
-        android:layout_height="wrap_content" />
+        android:background="#ff0"
+        android:layout_height="wrap_content"
+        app:ratio="2" />
 
     <com.wrl.viewtest.views.RatioImageView
         android:layout_marginTop="1dp"
